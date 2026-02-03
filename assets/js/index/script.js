@@ -26,10 +26,12 @@ document.addEventListener("DOMContentLoaded", function () {
     scrollTrigger: {
       trigger: ".gallery",
       start: "center center",
-      end: "+=200%",
+      end: "+=300%",
       scrub: true,
       pin: true,
-      markers: true,
+      // markers: true,
+      lazy: false,
+      anticipate: true,
     },
   });
 });
